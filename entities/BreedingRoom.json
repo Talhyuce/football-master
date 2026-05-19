@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "parent1_id": {
+      "type": "string"
+    },
+    "parent2_id": {
+      "type": "string"
+    },
+    "started_at": {
+      "type": "string"
+    },
+    "ends_at": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "breeding",
+        "ready",
+        "claimed"
+      ]
+    },
+    "child_rarity": {
+      "type": "string"
+    },
+    "child_position": {
+      "type": "string"
+    },
+    "child_player_id": {
+      "type": "string"
+    }
+  },
+  "required": [],
+  "name": "BreedingRoom"
+}
