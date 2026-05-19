@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "hunter_player_id": {
+      "type": "string"
+    },
+    "started_at": {
+      "type": "string"
+    },
+    "ends_at": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "completed",
+        "claimed"
+      ]
+    },
+    "found_player_id": {
+      "type": "string"
+    },
+    "hunt_location": {
+      "type": "string"
+    }
+  },
+  "required": [],
+  "name": "HuntSession"
+}
