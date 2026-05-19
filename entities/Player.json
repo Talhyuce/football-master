@@ -1,0 +1,79 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "nickname": {
+      "type": "string"
+    },
+    "rarity": {
+      "type": "string",
+      "enum": [
+        "Common",
+        "Rare",
+        "Epic",
+        "Legendary"
+      ]
+    },
+    "position": {
+      "type": "string",
+      "enum": [
+        "Kaleci",
+        "Defans",
+        "Orta Saha",
+        "Forvet"
+      ]
+    },
+    "level": {
+      "type": "number"
+    },
+    "xp": {
+      "type": "number"
+    },
+    "xp_to_next_level": {
+      "type": "number"
+    },
+    "power": {
+      "type": "number"
+    },
+    "speed": {
+      "type": "number"
+    },
+    "technique": {
+      "type": "number"
+    },
+    "stamina": {
+      "type": "number"
+    },
+    "avatar_emoji": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "idle",
+        "hunting",
+        "breeding",
+        "training"
+      ]
+    },
+    "is_baby": {
+      "type": "boolean"
+    },
+    "parent1_id": {
+      "type": "string"
+    },
+    "parent2_id": {
+      "type": "string"
+    },
+    "ready_at": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "required": [],
+  "name": "Player"
+}
