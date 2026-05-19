@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "coins": {
+      "type": "number"
+    },
+    "gems": {
+      "type": "number"
+    },
+    "energy": {
+      "type": "number"
+    },
+    "max_energy": {
+      "type": "number"
+    },
+    "last_energy_update": {
+      "type": "string"
+    },
+    "total_players_collected": {
+      "type": "number"
+    },
+    "total_hunts": {
+      "type": "number"
+    },
+    "total_breeds": {
+      "type": "number"
+    }
+  },
+  "required": [],
+  "name": "GameState"
+}
